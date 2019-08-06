@@ -3051,7 +3051,7 @@ input, select, textarea {
 				width: calc(100% - 30%);
 			}
 			#main2 {
-				margin-left: 15%;
+				margin-left: 10%;
 				max-width: none;
 				padding: 6em 3em 3em 3em;
 				width: calc(100% - 15%);
@@ -3140,6 +3140,13 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			#main2 {
+				margin: 0;
+				padding: 6em 4em;
+				width: 100%;
+			}
+
+
 	}
 
 /* Small */
@@ -3208,6 +3215,10 @@ input, select, textarea {
 				}
 			#main2 {
 				padding: 2.25em 1.5em 0.25em 1.5em;}
+				#main2 > section {
+					margin: 2.25em 0 0 0;
+					padding: 2.25em 0 0 0;
+				}
 
 		/* Poptrox */
 
