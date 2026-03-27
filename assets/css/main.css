@@ -1,5 +1,5 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
 
 /*
 	Strata by HTML5 UP
@@ -98,10 +98,10 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		color: #4a5568;
+		font-family: "Inter", Helvetica, sans-serif;
 		font-size: 16pt;
-		font-weight: 400;
+		font-weight: 300;
 		line-height: 1.75em;
 	}
 
@@ -122,8 +122,8 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #787878;
-		font-weight: 400;
+		color: #2d3748;
+		font-weight: 500;
 	}
 
 	em, i {
@@ -135,9 +135,9 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
-		font-weight: 400;
-		line-height: 1em;
+		color: #2d3748;
+		font-weight: 500;
+		line-height: 1.25em;
 		margin: 0 0 1em 0;
 	}
 
@@ -239,6 +239,41 @@ input, select, textarea {
 
 	.align-right {
 		text-align: right;
+	}
+
+/* Utility Classes */
+	.quote-text {
+		text-align: center;
+		font-weight: 500;
+		font-size: 1.25em;
+		color: #2d3748;
+		font-style: italic;
+	}
+
+	.quote-author {
+		text-align: right;
+		font-weight: 400;
+		color: #4a5568;
+		margin-top: 0.5em;
+	}
+
+	ul.clean-list {
+		list-style: none;
+		padding-left: 0;
+	}
+
+	ul.clean-list li {
+		margin-bottom: 0.5em;
+		padding-left: 1.5em;
+		position: relative;
+	}
+
+	ul.clean-list li:before {
+		content: '▹';
+		position: absolute;
+		left: 0;
+		color: #49bf9d;
+		font-weight: bold;
 	}
 
 /* Container */
